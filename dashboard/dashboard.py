@@ -75,7 +75,6 @@ min_date = all_df.index.min()
 max_date = all_df.index.max()
 
 with st.sidebar:
-    st.image("https://github.com/dicodingacademy/assets/raw/main/logo.png")
     start_date, end_date = st.date_input(
         label="Rentang Waktu",
         min_value=min_date,
